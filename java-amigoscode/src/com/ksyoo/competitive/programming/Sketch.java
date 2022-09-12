@@ -1,15 +1,11 @@
 package com.ksyoo.competitive.programming;
 
+import java.util.Arrays;
+
 public class Sketch {
     public static void main(String[] args) {
-        final var result = Solution.solution();
+        final var solutionInstance = new Solution();
+        final var result = solutionInstance.solution();
         System.out.println("result: " + result);
-    }
-
-    static class Solution {
-        public static String solution() {
-            String answer = "hello, world!";
-            return answer;
-        }
     }
 }
